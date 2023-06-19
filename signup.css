@@ -1,0 +1,139 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+#screen{
+    width: 100%;
+    height: 100vh;
+    background-color: rgb(36,45,52);
+    
+}
+#body{
+    width: 100%;
+    height: 100%;
+    background-color: rgb(36,45,52);
+    border: 1px solid rgb(36,45,52);
+}
+#signup_box{
+    width: 50%;
+    /* height: 100%; */
+    background-color: white;
+    margin: auto;
+    margin-top: 20px;
+    background-color: black;
+    align-items: center;
+    border: 2px solid red;
+}
+
+#logo{
+    width: 50%;
+    height: 30%;
+    border: 1px solid whitesmoke;
+    margin: auto;
+    margin-top: 10px;
+    align-items: center;
+}
+#logo>div{
+    width: 15%;
+    height: 40px; 
+    margin: auto;
+}
+#logo>div>img{
+    width: 100%;
+    height: 100%;
+    box-sizing: border-box;
+}
+#signin{
+    width: 50%;
+    /* height: 25%; */
+    border: 1px solid whitesmoke;
+    margin: auto;
+    margin-top: 10px;
+}
+#signin>h1{
+    color: white;
+}
+#google{
+    width: 50%;
+    height: 30px;
+    border: 1px solid whitesmoke;
+    margin: auto;
+    margin-top: 10px;
+    border-radius: 15px;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    
+}
+#google>div:nth-child(1){
+    width: 10%;
+    height: 80%;
+    /* border: 1px solid red; */
+    margin-left: 50px;
+    margin-top: 2px;
+}
+#google>div:nth-child(1)>img{
+    width: 100%;
+    height: 100%;
+}
+#google>div:nth-child(2){
+    width: 70%;
+    height: 80%;
+    /* border: 1px solid red; */
+    margin-top: 3px;   
+}
+#google>div:nth-child(2)>span{
+    padding: 3px 20px
+
+}
+#apple{
+    width: 50%;
+    height: 30px;
+    border: 1px solid whitesmoke;
+    margin: auto;
+    margin-top: 20px;
+    border-radius: 15px;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    
+}
+#apple>div:nth-child(1){
+    width: 10%;
+    height: 80%;
+    /* border: 1px solid red; */
+    margin-left: 50px;
+    margin-top: 2px;
+}
+#apple>div:nth-child(1)>img{
+    width: 100%;
+    height: 100%;
+}
+#apple>div:nth-child(2){
+    width: 70%;
+    height: 80%;
+    /* border: 1px solid red; */
+    margin-top: 3px;   
+}
+#apple>div:nth-child(2)>span{
+    padding: 3px 20px
+
+}
+#or{
+    width: 50%;
+    /* height: 25%; */
+    border: 1px solid whitesmoke;
+    margin: auto;
+    margin-top: 10px;
+    color: white;
+    text-align: center;
+}
+
+#line{
+    width: 16%;
+    height: 2px;
+    background-color: rgb(215, 214, 214);
+    color: white;
+}
