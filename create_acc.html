@@ -3,15 +3,14 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Sign Up Twitter</title>
+    <title>Login Twitter</title>
 
-    <link rel="stylesheet" href="./signup.css" />
+    <link rel="stylesheet" href="./create_acc.css" />
     <script
       src="https://kit.fontawesome.com/cad84b7595.js"
       crossorigin="anonymous"
     ></script>
   </head>
-
   <body>
     <div id="screen">
       <div id="signUp_container">
@@ -40,25 +39,29 @@
               <a href="">Sign up with Apple</a>
             </div>
             <p id="or">or</p>
-            <div id="create_acc_btn">
-              <a href="../html/createAccount.html"
-                ><button>Create Account</button></a
-              >
-            </div>
-            <div id="terms">
-              <p>
-                By Signing Up, You agree to the <span> terms of Services</span>
-              </p>
-              <p>
-                and <span> Privacy Policy</span>,including
-                <span> Cookie Use.</span>
-              </p>
-            </div>
+
+            <form>
+              <div class="input_container">
+                <input type="text" placeholder="Username" />
+              </div>
+              <div class="input_container">
+                <input type="email" placeholder="email" />
+              </div>
+              <div class="input_container">
+                <input type="password" placeholder="password" />
+              </div>
+              <div class="input_container">
+                <input type="password" placeholder="confirm password" />
+              </div>
+              <div class="input_container">
+                <input id="submit" type="submit" placeholder="confirm password" />
+              </div>
+            </form>
 
             <div id="already_acc">
               <p>
-                Have an Account already ?
-                <a href="../html/logIn.html">Log In</a>
+                New User ?
+                <a href="../html/signUp.html">Sign Up</a>
               </p>
             </div>
           </div>

@@ -17,7 +17,7 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    background-color: rgb(221, 220, 220);
+    background-color: hsl(0, 1%, 86%);
   }
   
   #signUp_container {
@@ -43,7 +43,7 @@
   
   #main_signUp {
     width: 100%;
-    height: 70%;
+    height: 100%;
     /* border: 1px solid blue; */
   }
   
@@ -101,37 +101,36 @@
   
   #or {
     text-align: center;
-    padding-bottom: 3%;
+    padding-bottom: 4%;
   }
   
-  #create_acc_btn {
+  form {
+    width: 100%;
+  }
+  
+  .input_container {
     width: 90%;
-    height: 8%;
-    /* margin-top: 4%; */
     margin: auto;
   }
-  #create_acc_btn > a > button {
+  .input_container > input {
     width: 100%;
-    height: 100%;
-    border-radius: 50px;
+    margin: 4% 0;
+    padding: 2%;
     border: none;
+    border-radius: 5px;
+    border-bottom: 1px solid rgb(171, 171, 171);
+    outline: none;
+  }
+  .input_container > input:focus {
+    outline: 0.5px solid rgb(199, 197, 197);
+  }
+  .input_container > #submit {
     background-color: black;
     color: white;
   }
   
-  #terms {
-    margin-top: 4%;
-    font-size: 0.65em;
-    text-align: left;
-    padding-left: 7%;
-  }
-  
-  #terms > p > span {
-    color: blue;
-  }
-  
   #already_acc {
-    padding-top: 17%;
+    padding-top: 4%;
     font-size: 0.9em;
     padding-left: 7%;
   }
